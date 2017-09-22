@@ -18,3 +18,9 @@ This is a RESTful api built with the SlimPHP framework and uses MySQL for storag
 
 ### Example
 ![Imgur](https://i.imgur.com/WLGP6vD.png)
+
+### Reference link
+- [Youtube](https://youtu.be/DHUxnUX7Y2Y)
+- [composer](https://getcomposer.org/)
+- [Slim PHP Framework](www.slimframework.com)
+
