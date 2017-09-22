@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Sep 22, 2017 at 12:07 PM
+-- Generation Time: Sep 22, 2017 at 12:09 PM
 -- Server version: 10.0.31-MariaDB-0ubuntu0.16.04.2
 -- PHP Version: 7.0.22-0ubuntu0.16.04.1
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `slimapp`
 --
+CREATE DATABASE IF NOT EXISTS `slimapp` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `slimapp`;
 
 -- --------------------------------------------------------
 
@@ -26,7 +28,6 @@ SET time_zone = "+00:00";
 -- Table structure for table `customers`
 --
 
-DROP TABLE IF EXISTS `customers`;
 CREATE TABLE `customers` (
   `id` int(11) NOT NULL,
   `first_name` varchar(255) NOT NULL,
